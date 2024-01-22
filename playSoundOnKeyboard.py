@@ -3,7 +3,6 @@ import os
 import json
 import keyboard
 import pygame
-import time
 
 def init():
     pygame.mixer.init()
