@@ -4,5 +4,5 @@
 - Keys that are supported by [boppreh/keyboard](https://github.com/boppreh/keyboard) can be added.
 - Supported extensions are mp3 / wav / ogg(?).
 
-## Included audio files
+## Sample audio files
 from [効果音ラボ](https://soundeffect-lab.info/)
