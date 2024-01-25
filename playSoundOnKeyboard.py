@@ -22,10 +22,11 @@ def init():
 
 def main():
     while True:
-        if (keyboard.read_event().event_type != keyboard.KEY_DOWN):
+        event = keyboard.read_event()
+        if event.event_type != keyboard.KEY_DOWN:
             continue
         for key, se in seList.items():
-            if (keyboard.is_pressed(key)):
+            if event.name == key:
                 se["file"].play(0)
 
 if __name__ == "__main__":
